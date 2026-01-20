@@ -2,7 +2,6 @@ import pandas as pd
 from sqlalchemy import create_engine
 from tqdm.auto import tqdm
 import click
-import psycopg2
 
 dtype = {
     "VendorID": "Int64",
